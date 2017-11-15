@@ -1,0 +1,42 @@
+/*For all pages*/
+@font-face {
+    font-family: "U1710264LIGHT";
+    src: url("../fonts/RobotoLight.ttf");
+}
+@font-face {
+    font-family: "U1710264BOLD";
+    src: url("../fonts/RobotoBold.ttf");
+}
+h1,b{
+	font-family: U1710264BOLD;
+}
+p,ol,ul,li{
+	font-family: U1710264LIGHT;
+}
+a{text-decoration: none;}
+.pagesLinker{
+	position: fixed;
+	right: 2%;
+	bottom: 1%;
+	background: blue;
+	color: white; 
+	width: 90pt; /*POINT SIZE*/
+	height: 30pt;
+	text-align: center;
+	line-height: 30pt;
+	border-radius: 7px;
+}
+/*Home page*/
+#U1710264_photo{
+	position: absolute;
+	right: 5%;
+	width: 150px;
+}
+ol#Hobbies>li{list-style-type: circle;}
+ol#Interests>li{list-style-type: square;}
+
+/*Movies page*/
+div#movies>ul>li{list-style: none;}
+div#movies>ul>li>table{margin: 2% 0px;width: 50%}
+div#movies>ul>li>table>tbody>tr>td>a>img{border-radius: 10px;}
+div#movies>ul>li>table>tbody>tr>td>ol>li{list-style-type: none;}
